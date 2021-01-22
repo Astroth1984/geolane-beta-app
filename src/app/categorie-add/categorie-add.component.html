@@ -1,0 +1,49 @@
+<div class="example-container mat-elevation-z8">
+    <div class="example-loading-shade"
+         *ngIf="isLoadingResults">
+      <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+    </div>
+    <div class="button-row">
+      <a mat-flat-button color="primary" [routerLink]="['/categories']"><mat-icon>list</mat-icon></a>
+    </div>
+    <mat-card class="example-card">
+      <form [formGroup]="categorieForm" (ngSubmit)="onFormSubmit(categorieForm.value)">
+
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Categorie id" formControlName="id"
+                   >
+            <mat-error>
+              <span *ngIf="!categorieForm.get('id').valid && categorieForm.get('id').touched">Please enter Categorie id</span>
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Login" formControlName="login"
+                 >
+          <mat-error>
+            <span *ngIf="!categorieForm.get('login').valid && categorieForm.get('login').touched">Please enter Last Login Update</span>
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Code N°:" formControlName="code"
+                 >
+          <mat-error>
+            <span *ngIf="!categorieForm.get('code').valid && categorieForm.get('code').touched">Please enter Categorie Code N°</span>
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Title (in_GB)" formControlName="title"
+                   >
+            <mat-error>
+              <span *ngIf="!categorieForm.get('title').valid && categorieForm.get('title').touched">Please enter Categorie Title</span>
+            </mat-error>
+        </mat-form-field>
+
+        <div class="button-row">
+          <button type="submit" [disabled]="!categorieForm.valid" mat-flat-button color="primary"><mat-icon>save</mat-icon></button>
+        </div>
+      </form>
+    </mat-card>
+  </div>

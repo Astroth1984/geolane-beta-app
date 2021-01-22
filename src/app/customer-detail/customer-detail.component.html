@@ -1,0 +1,30 @@
+<div class="example-container mat-elevation-z8">
+    <div class="example-loading-shade"
+         *ngIf="isLoadingResults">
+      <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+    </div>
+    <div class="button-row">
+      <a mat-flat-button color="primary" [routerLink]="['/customers']"><mat-icon>list</mat-icon></a>
+    </div>
+    
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><h2>{{customer.firstName}} {{customer.lastName}}</h2></mat-card-title>
+        <mat-card-subtitle>{{customer.id}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <dl>
+          <dt>Customer e-mail:</dt>
+          <dd>{{customer.mail}}</dd>
+          <dt>Customer Profil:</dt>
+          <dd>{{customer.profil}}</dd>
+          <dt>Customer function:</dt>
+          <dd>{{customer.function}}</dd>
+        </dl>
+      </mat-card-content>
+      <mat-card-actions>
+        <a mat-flat-button color="primary" [routerLink]="['/customer-edit', customer.id]"><mat-icon>edit</mat-icon></a>
+        <a mat-flat-button color="warn" (click)="deleteCustomer(customer.id)"><mat-icon>delete</mat-icon></a>
+      </mat-card-actions>
+    </mat-card>
+  </div>

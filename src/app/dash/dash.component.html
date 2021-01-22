@@ -1,0 +1,38 @@
+<div class="grid-container">
+  <div class="example-loading-shade"
+         *ngIf="isLoadingResults">
+      <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+  </div>
+  <h1 class="mat-h1">Dashboard</h1>
+  <mat-grid-list cols="{{ ( cardLayout | async )?.columns }}" rowHeight="200px">
+    <!--Mini Cards-->
+    <mat-grid-tile *ngFor="let mc of miniCardData" [colspan]="( cardLayout | async )?.miniCard.cols"
+     [rowspan]="( cardLayout | async )?.miniCard.rows">
+     <app-mini-card [title]="mc.title" [textValue]="mc.textValue" [value]="mc.value" [color]="mc.color" [percentValue]="mc.percentValue" [icon]="mc.icon" [isIncrease]="mc.isIncrease"></app-mini-card>
+   </mat-grid-tile>
+    <!--Charts-->
+    <mat-grid-tile [colspan]="( cardLayout | async )?.chart.cols" [rowspan]="( cardLayout | async )?.chart.rows">
+      <app-card title="Product Price & Not Taxed Price">
+          <app-annual-sales-chart></app-annual-sales-chart>
+      </app-card>
+   </mat-grid-tile>
+
+   <mat-grid-tile [colspan]="( cardLayout | async )?.chart.cols" [rowspan]="( cardLayout | async )?.chart.rows">
+      <app-card title="Product Sieze">
+          <app-product-sieze></app-product-sieze>
+      </app-card>
+  </mat-grid-tile>
+
+    <mat-grid-tile [colspan]="( cardLayout | async )?.chart.cols" [rowspan]="( cardLayout | async )?.chart.rows">
+      <app-card title="Product Price & Not Taxed Price">
+          <app-product-sales-chart></app-product-sales-chart>
+      </app-card>
+  </mat-grid-tile>
+
+  <mat-grid-tile [colspan]="( cardLayout | async )?.chart.cols" [rowspan]="( cardLayout | async )?.chart.rows">
+    <app-card title="Product Not Taxed Price">
+        <app-sales-traffic-chart></app-sales-traffic-chart>
+    </app-card>
+  </mat-grid-tile>
+  </mat-grid-list>
+ </div>

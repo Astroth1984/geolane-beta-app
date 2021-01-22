@@ -1,0 +1,321 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "prod_name": "Awesome",
+      "prod_desc": "Rerum accusantium totam commodi. Commodi molestiae porro exercitationem blanditiis iusto et in facilis. Sequi voluptatum blanditiis dolorem sunt facere. Dolor odit facere.",
+      "prod_price": "13.00",
+      "prod_priceHT": "45.00",
+      "sieze": 25,
+      "updated_at": "2020-03-06T00:47:30.832Z"
+    },
+    {
+      "id": 3,
+      "prod_name": "Practical",
+      "prod_desc": "Excepturi velit eos. Magni aperiam quis fugiat modi fuga.",
+      "prod_price": "97.00",
+      "prod_priceHT": "88.00",
+      "sieze": 26,
+      "updated_at": "2019-04-13T05:26:51.427Z"
+    },
+    {
+      "id": 4,
+      "prod_name": "Sleek",
+      "prod_desc": "Impedit dolores velit at omnis aut sit qui quia eligendi. Deserunt fuga possimus impedit quos et nostrum. Saepe nobis temporibus voluptatum ullam beatae tempore voluptatem et. Ut et sequi saepe nihil nisi voluptate. Itaque placeat itaque facere omnis culpa quia dolor sit est. Laborum ipsum ea minus dolore.",
+      "prod_price": "47.00",
+      "prod_priceHT": "32.00",
+      "sieze": 15,
+      "updated_at": "2017-07-10T04:57:25.547Z"
+    },
+    {
+      "id": 5,
+      "prod_name": "Intelligent",
+      "prod_desc": "Quo officiis culpa provident. Nemo aut fugiat architecto non ipsa adipisci ipsam molestias dolor.",
+      "prod_price": "64.00",
+      "prod_priceHT": "90.00",
+      "sieze": 1,
+      "updated_at": "2017-08-26T12:41:56.155Z"
+    },
+    {
+      "id": 6,
+      "prod_name": "Sleek",
+      "prod_desc": "Quaerat omnis sint. Perspiciatis qui itaque amet saepe est.",
+      "prod_price": "36.00",
+      "prod_priceHT": "49.00",
+      "sieze": 0,
+      "updated_at": "2020-04-27T02:15:01.001Z"
+    },
+    {
+      "id": 7,
+      "prod_name": "Handcrafted",
+      "prod_desc": "Modi ullam quia aliquid rerum rerum totam rerum voluptatem. Et minus consequuntur nostrum tempore officia quidem quia officia. Et repellat eaque explicabo enim eaque.",
+      "prod_price": "31.00",
+      "prod_priceHT": "73.00",
+      "sieze": 20,
+      "updated_at": "2016-01-08T02:37:25.900Z"
+    },
+    {
+      "id": 8,
+      "prod_name": "Handmade",
+      "prod_desc": "Aut pariatur nam repellat fugit. Ipsam nostrum nemo quia quam velit et natus. Ad enim quo nostrum. Non debitis cumque beatae et enim. Temporibus unde quis dignissimos corrupti sit illo. Sit aut qui omnis cumque eligendi doloremque quo.",
+      "prod_price": "82.00",
+      "prod_priceHT": "46.00",
+      "sieze": 12,
+      "updated_at": "2018-11-04T22:44:16.838Z"
+    },
+    {
+      "id": 9,
+      "prod_name": "Incredible",
+      "prod_desc": "Et tenetur nesciunt voluptas nemo quia ea molestiae quo. Laborum ea distinctio debitis quia dolorem blanditiis. Necessitatibus recusandae voluptatem nostrum et sint hic illo aut. Repellendus rerum molestiae labore est.",
+      "prod_price": "93.00",
+      "prod_priceHT": "60.00",
+      "sieze": 4,
+      "updated_at": "2015-06-23T15:19:05.496Z"
+    },
+    {
+      "id": 10,
+      "prod_name": "Rustic",
+      "prod_desc": "Consequatur quas ut nisi nostrum minus quo est. In ipsa et et.",
+      "prod_price": "31.00",
+      "prod_priceHT": "15.00",
+      "sieze": 6,
+      "updated_at": "2013-02-07T15:59:17.872Z"
+    },
+    {
+      "id": 11,
+      "prod_name": "Licensed",
+      "prod_desc": "Doloribus non odio et tempora earum. Nostrum enim molestias et minus cum quo deserunt. Et sunt sit et ex sunt non.",
+      "prod_price": "91.00",
+      "prod_priceHT": "14.00",
+      "sieze": 2,
+      "updated_at": "2012-09-08T11:37:45.660Z"
+    },
+    {
+      "id": 12,
+      "prod_name": "Incredible",
+      "prod_desc": "Fugit ut explicabo omnis perspiciatis sit ex modi. Laborum quis nisi voluptatibus velit autem ea nihil nulla.",
+      "prod_price": "32.00",
+      "prod_priceHT": "15.00",
+      "sieze": 9,
+      "updated_at": "2013-03-03T01:08:21.362Z"
+    },
+    {
+      "id": 13,
+      "prod_name": "Ergonomic",
+      "prod_desc": "Perferendis aut officia esse sed. Pariatur et esse et aut eos voluptatum ut omnis.",
+      "prod_price": "75.00",
+      "prod_priceHT": "63.00",
+      "sieze": 16,
+      "updated_at": "2012-04-15T04:57:10.882Z"
+    },
+    {
+      "id": 14,
+      "prod_name": "Fantastic",
+      "prod_desc": "Quibusdam fugiat molestiae officia. Fugiat ut fuga aut cum odio suscipit corporis. Atque corporis sunt magni ratione aut similique. Architecto et quisquam odit quia eum deserunt ut aut impedit. Mollitia et alias aut et soluta eos iusto minima culpa.",
+      "prod_price": "96.00",
+      "prod_priceHT": "13.00",
+      "sieze": 28,
+      "updated_at": "2014-12-30T11:07:12.469Z"
+    },
+    {
+      "id": 15,
+      "prod_name": "Rustic",
+      "prod_desc": "Maxime alias illo est. Totam non reprehenderit quos. Ad non aliquid ullam possimus suscipit incidunt dignissimos quidem autem. Deserunt ut quos sunt. Nemo rerum qui alias autem reprehenderit. Dolor vitae a ea vitae accusamus itaque.",
+      "prod_price": "44.00",
+      "prod_priceHT": "54.00",
+      "sieze": 20,
+      "updated_at": "2012-05-22T09:15:54.331Z"
+    },
+    {
+      "id": 16,
+      "prod_name": "Ergonomic",
+      "prod_desc": "Eos dolor suscipit nemo quisquam accusantium. Quo voluptatem qui repellendus corrupti perspiciatis. Aut doloribus nam. Ducimus sunt error ut. Accusantium ipsa saepe voluptas maxime dolores id maiores. Nemo eum dolor id enim debitis et.",
+      "prod_price": "56.00",
+      "prod_priceHT": "49.00",
+      "sieze": 21,
+      "updated_at": "2014-07-15T04:46:14.535Z"
+    },
+    {
+      "id": 17,
+      "prod_name": "Licensed",
+      "prod_desc": "Similique dolorem fugiat dolor sapiente beatae sequi ratione voluptates. Unde at voluptate similique dolor.",
+      "prod_price": "39.00",
+      "prod_priceHT": "37.00",
+      "sieze": 26,
+      "updated_at": "2017-04-24T22:36:05.346Z"
+    },
+    {
+      "id": 18,
+      "prod_name": "Incredible",
+      "prod_desc": "Omnis quis expedita sint itaque sed quasi. Qui maiores aliquid sit amet esse omnis. Alias voluptas reprehenderit quia dolores. Temporibus ut nam omnis aut ad qui tempore nihil. Excepturi dignissimos nam maxime deleniti.",
+      "prod_price": "17.00",
+      "prod_priceHT": "12.00",
+      "sieze": 15,
+      "updated_at": "2007-08-21T04:09:35.862Z"
+    },
+    {
+      "id": 19,
+      "prod_name": "Handcrafted",
+      "prod_desc": "Explicabo eos harum cum expedita in qui ullam. Doloremque odit voluptatibus non. Libero voluptates omnis provident recusandae consequatur praesentium asperiores corporis deleniti. Facere veniam facilis optio corporis iure assumenda voluptatum.",
+      "prod_price": "17.00",
+      "prod_priceHT": "55.00",
+      "sieze": 24,
+      "updated_at": "2015-11-13T20:58:02.956Z"
+    },
+    {
+      "prod_name": "Noufal",
+      "prod_desc": "a9wad insan apres messi",
+      "prod_price": "90",
+      "prod_priceHT": "80",
+      "sieze": "1",
+      "id": 20
+    }
+  ],
+  "costumers": [
+    {
+      "id": 1,
+      "firstName": "Elmira",
+      "lastName": "VonRueden",
+      "mail": "Luz8@hotmail.com",
+      "profil": 0,
+      "function": "explicit"
+    },
+    {
+      "id": 2,
+      "firstName": "Porter",
+      "lastName": "Mertz",
+      "mail": "Susana.Hilll@hotmail.com",
+      "profil": 8,
+      "function": "asymmetric"
+    },
+    {
+      "id": 3,
+      "firstName": "Imogene",
+      "lastName": "Mayer",
+      "mail": "Lila30@yahoo.com",
+      "profil": 6,
+      "function": "value-added"
+    },
+    {
+      "id": 4,
+      "firstName": "Zola",
+      "lastName": "Bernier",
+      "mail": "Bernardo_Hudson@hotmail.com",
+      "profil": 16,
+      "function": "dedicated"
+    },
+    {
+      "id": 5,
+      "firstName": "Derrick",
+      "lastName": "Wolff",
+      "mail": "Stephania.Oberbrunner21@gmail.com",
+      "profil": 19,
+      "function": "tangible"
+    },
+    {
+      "id": 6,
+      "firstName": "Porter",
+      "lastName": "Abernathy",
+      "mail": "Antonina84@hotmail.com",
+      "profil": 5,
+      "function": "4th generation"
+    },
+    {
+      "id": 7,
+      "firstName": "Marques",
+      "lastName": "Wehner",
+      "mail": "Waylon_Farrell16@hotmail.com",
+      "profil": 14,
+      "function": "composite"
+    },
+    {
+      "id": 8,
+      "firstName": "Shanelle",
+      "lastName": "Moore",
+      "mail": "Lulu83@hotmail.com",
+      "profil": 8,
+      "function": "asynchronous"
+    },
+    {
+      "id": 9,
+      "firstName": "America",
+      "lastName": "Fisher",
+      "mail": "Oma.Mante@hotmail.com",
+      "profil": 13,
+      "function": "impactful"
+    },
+    {
+      "id": 10,
+      "firstName": "Ronaldo",
+      "lastName": "Walker",
+      "mail": "Devon.Fisher81@gmail.com",
+      "profil": 8,
+      "function": "disintermediate"
+    }
+  ],
+  "categories": [
+    {
+      "id": 358,
+      "updated_at": "2020-01-10T20:01:12.653Z",
+      "login": "admin Borer",
+      "code": 296,
+      "title": "Koelpin Inc"
+    },
+    {
+      "id": 136,
+      "updated_at": "2019-09-25T08:11:11.717Z",
+      "login": "admin Rohan",
+      "code": 29,
+      "title": "Corkery and Sons"
+    },
+    {
+      "id": 31,
+      "updated_at": "2018-09-25T09:35:49.556Z",
+      "login": "admin Luettgen",
+      "code": 536,
+      "title": "Howell - Bauch"
+    },
+    {
+      "id": 297,
+      "updated_at": "2020-08-13T12:37:13.872Z",
+      "login": "admin Hegmann",
+      "code": 149,
+      "title": "Miller, Harber and Leannon"
+    },
+    {
+      "id": 31,
+      "updated_at": "2016-10-17T20:20:27.780Z",
+      "login": "Mrs. admin Lockman",
+      "code": 479,
+      "title": "Romaguera, Williamson and Willms"
+    },
+    {
+      "id": 225,
+      "updated_at": "2016-05-23T07:48:42.430Z",
+      "login": "Ms. admin Jaskolski",
+      "code": 273,
+      "title": "Yost, Hand and Goodwin"
+    },
+    {
+      "id": 171,
+      "updated_at": "2017-07-26T15:55:45.934Z",
+      "login": "admin Wolff",
+      "code": 268,
+      "title": "Haag - Gottlieb"
+    },
+    {
+      "id": 13,
+      "updated_at": "2018-03-04T14:35:46.219Z",
+      "login": "admin Schoen",
+      "code": 122,
+      "title": "Mraz, Kuhn and Langworth"
+    },
+    {
+      "id": 266,
+      "updated_at": "2019-11-01T15:29:13.336Z",
+      "login": "admin Stehr",
+      "code": 109,
+      "title": "O'Hara and Sons"
+    }
+  ]
+}

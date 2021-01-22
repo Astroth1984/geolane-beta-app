@@ -1,0 +1,67 @@
+<div class="example-container mat-elevation-z8">
+    <div class="example-loading-shade"
+         *ngIf="isLoadingResults">
+      <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+    </div>
+    <div class="button-row">
+      <a mat-flat-button color="primary" [routerLink]="['/customers']"><mat-icon>list</mat-icon></a>
+    </div>
+    <mat-card class="example-card">
+      <form [formGroup]="customerForm" (ngSubmit)="onFormSubmit(customerForm.value)">
+
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Customer id" formControlName="id"
+                   >
+            <mat-error>
+              <span *ngIf="!customerForm.get('id').valid && customerForm.get('id').touched">Please enter Customer id</span>
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="First Name" formControlName="firstName"
+                 >
+          <mat-error>
+            <span *ngIf="!customerForm.get('firstName').valid && customerForm.get('firstName').touched">Please enter Customer First Name</span>
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Last Name" formControlName="lastName"
+                 >
+          <mat-error>
+            <span *ngIf="!customerForm.get('lastName').valid && customerForm.get('lastName').touched">Please enter Customer Last Name</span>
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="e-mail" formControlName="mail"
+                   >
+            <mat-error>
+              <span *ngIf="!customerForm.get('mail').valid && customerForm.get('mail').touched">Please enter Customer E-mail</span>
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Profil > Customer id" formControlName="profil"
+                   >
+            <mat-error>
+              <span *ngIf="!customerForm.get('profil').valid && customerForm.get('profil').touched">Please enter Customer profil</span>
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Customer Function" formControlName="function"
+                   >
+            <mat-error>
+              <span *ngIf="!customerForm.get('function').valid && customerForm.get('function').touched">Please enter Customer Function</span>
+            </mat-error>
+        </mat-form-field>
+
+        
+        
+        <div class="button-row">
+          <button type="submit" [disabled]="!customerForm.valid" mat-flat-button color="primary"><mat-icon>save</mat-icon></button>
+        </div>
+      </form>
+    </mat-card>
+  </div>

@@ -1,0 +1,44 @@
+<div class="example-container mat-elevation-z8">
+    <div class="example-loading-shade"
+         *ngIf="isLoadingResults">
+      <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+    </div>
+    
+        <a mat-flat-button color="primary" [routerLink]="['/products']"><mat-icon>list</mat-icon></a>
+        <a mat-flat-button color="primary" [routerLink]="['/product-add']"><mat-icon>add</mat-icon></a>
+   
+    <div class="example-container mat-elevation-z8" >
+        <canvas baseChart 
+                class="chart"
+                width="800"
+                height="500"
+                [datasets]="lineChartData"
+                [labels]="lineChartLabels"
+                [options]="lineChartOptions"
+                [colors]="lineChartColors"
+                [legend]="lineChartLegend"
+                [chartType]="lineChartType"
+                [plugins]="lineChartPlugins">
+        </canvas>
+    </div>
+    <div class="example-container mat-elevation-z8" >
+            <canvas *ngIf="displayBubble" baseChart
+                 [datasets]="bubbleChartData"
+                 [options]="bubbleChartOptions"
+                 [colors]="bubbleChartColors"
+                 [legend]="bubbleChartLegend"
+                 [chartType]="bubbleChartType">
+            </canvas>
+    </div>
+    
+</div>    
+<section class="example-section">
+    <mat-slide-toggle class="example-margin" 
+                      color = 'primary'
+                      [checked]="checked" 
+                      (change)="setValue()">
+                      <mat-icon> show_chart</mat-icon>
+    </mat-slide-toggle>
+</section>
+
+<!--<app-word-cloud [wordData]="dataD3"></app-word-cloud>-->
